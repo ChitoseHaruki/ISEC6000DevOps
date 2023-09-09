@@ -1,0 +1,124 @@
+<mxfile host="app.diagrams.net" modified="2023-09-09T13:12:06.639Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="h_05cVsF3fOOosVanLw7" version="21.3.3" type="github">
+  <diagram name="第 1 页" id="_cjly2ntvkg-xPhzb7jA">
+    <mxGraphModel dx="2577" dy="957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gJpQqptr6RQgMpRAQfNr-1" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="60" width="320" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="gJpQqptr6RQgMpRAQfNr-2" value="&lt;h1&gt;API service&lt;/h1&gt;&lt;div&gt;network:saleor-backend-tier&lt;/div&gt;&lt;div&gt;volumes:saleor-media:/app/media&lt;/div&gt;&lt;p&gt;EXPOSED PORT:8000&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="60" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="gJpQqptr6RQgMpRAQfNr-4" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="149.52" as="sourcePoint" />
+            <mxPoint x="420" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gJpQqptr6RQgMpRAQfNr-6" value="&amp;nbsp;data storage" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="180" y="90" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gJpQqptr6RQgMpRAQfNr-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="120" width="396" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="gJpQqptr6RQgMpRAQfNr-9" value="Database" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="420" y="130" width="100" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="volumes:" placeholders="1" id="gJpQqptr6RQgMpRAQfNr-10">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+            <mxGeometry x="380" y="160" width="160" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="gJpQqptr6RQgMpRAQfNr-11" value="&lt;div&gt;saleor-db:/var/lib/postgresql/data&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;replica_user.sql:/docker-entrypouint-initdb.d/replica_user.sql&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="480" y="170" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gJpQqptr6RQgMpRAQfNr-13" value="&lt;div&gt;networks:saleor-backend-tier&lt;/div&gt;&lt;div&gt;EXPOSED PORT:5432&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="414" y="230" width="276" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gJpQqptr6RQgMpRAQfNr-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.017;exitY=0.535;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="gJpQqptr6RQgMpRAQfNr-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-410" y="70" as="sourcePoint" />
+            <mxPoint x="-440" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gJpQqptr6RQgMpRAQfNr-15" value="Distributed tracing" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;labelBackgroundColor=none;fontColor=default;" connectable="0" vertex="1" parent="gJpQqptr6RQgMpRAQfNr-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gJpQqptr6RQgMpRAQfNr-16" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-730" y="92.5" width="290" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="gJpQqptr6RQgMpRAQfNr-17" value="Jaeger" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="92.5" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gJpQqptr6RQgMpRAQfNr-19" value="&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;networks:saleor-backend-tier&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Exposed&amp;nbsp; ports for jaegers &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;components&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="120" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gJpQqptr6RQgMpRAQfNr-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="gJpQqptr6RQgMpRAQfNr-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-100" y="320" as="sourcePoint" />
+            <mxPoint x="-50" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gJpQqptr6RQgMpRAQfNr-21" value="Changing and task queuing" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;labelBackgroundColor=none;fontColor=default;" connectable="0" vertex="1" parent="gJpQqptr6RQgMpRAQfNr-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gJpQqptr6RQgMpRAQfNr-22" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="450" width="340" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="gJpQqptr6RQgMpRAQfNr-23" value="Redis" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="450" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gJpQqptr6RQgMpRAQfNr-25" value="&lt;div&gt;Volimes:saleor-redis&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;networks:saleor-backend-tier&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;EXPOSED POrT:6379&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="480" width="310" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gJpQqptr6RQgMpRAQfNr-26" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="370" y="580" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gJpQqptr6RQgMpRAQfNr-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="gJpQqptr6RQgMpRAQfNr-26" target="gJpQqptr6RQgMpRAQfNr-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="550" as="sourcePoint" />
+            <mxPoint x="200" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gJpQqptr6RQgMpRAQfNr-33" value="TASK QUEUING" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="180" y="610" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gJpQqptr6RQgMpRAQfNr-34" value="Worker service" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="410" y="580" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gJpQqptr6RQgMpRAQfNr-36" value="&lt;ol&gt;&lt;li&gt;Volumes:saleor-media(Shared with the API service)&lt;/li&gt;&lt;li&gt;networks:saleor-backend-tier&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="350" y="570" width="247" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gJpQqptr6RQgMpRAQfNr-37" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.604;entryY=-0.063;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="gJpQqptr6RQgMpRAQfNr-36" target="gJpQqptr6RQgMpRAQfNr-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="790" as="sourcePoint" />
+            <mxPoint x="480" y="830" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gJpQqptr6RQgMpRAQfNr-39" value="SENDING EMAILS&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="530" y="760" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gJpQqptr6RQgMpRAQfNr-40" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="400" y="880" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gJpQqptr6RQgMpRAQfNr-41" value="Mailpit" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="390" y="880" width="100" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="networks:saleor-backend-tier" placeholders="1" id="gJpQqptr6RQgMpRAQfNr-42">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+            <mxGeometry x="393.5" y="920" width="186.5" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="EXPOSED PORTS:1025(SMTP serve) and 8025(web UI)" placeholders="1" name="Variable" id="gJpQqptr6RQgMpRAQfNr-43">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+            <mxGeometry x="410" y="940" width="210" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
